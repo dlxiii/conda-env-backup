@@ -36,3 +36,23 @@ pip install -r requirements.txt
 链接：https://www.jianshu.com/p/b86c17057da8
 来源：简书
 简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+
+查看当前包 
+
+~~~bash
+python -m pip list 
+~~~
+
+备份环境 
+
+~~~bash
+python -m pip freeze > /Desktop/myrequirements.txt 
+~~~
+
+安装环境 
+
+~~~bash
+pip install -r /Desktop/myrequirements.txt
+~~~
+
+来源：https://blog.csdn.net/lazybones_3/article/details/79504035
