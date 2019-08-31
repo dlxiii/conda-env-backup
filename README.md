@@ -17,3 +17,10 @@ conda env create -f environment.yaml
 ————————————————
 版权声明：本文为CSDN博主「vola9527」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/vola9527/article/details/80744540
+
+就可以复现安装环境。移植过来的环境只是安装了你原来环境里用conda install等命令直接安装的包，你用pip之类装的东西没有移植过来，需要你重新安装。pip导出安装的库到requirements.txtpip freeze > requirements.txtpip导入requirements.txt中列出的库到系统pip install -r requirements.txt
+
+作者：宇果_2fdc
+链接：https://www.jianshu.com/p/b86c17057da8
+来源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
