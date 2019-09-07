@@ -60,3 +60,4 @@ pip install -r /Desktop/myrequirements.txt
 安装PYFVCOM错误解决：
 * 参照：https://stackoverflow.com/questions/57243141/error-command-errored-out-with-exit-status-1-while-installing-requirements
 * 参照：https://stackoverflow.com/questions/55084003/pyproj-package-installation-proj-dir-variable
+* 参照：https://github.com/pyproj4/pyproj/issues/227
